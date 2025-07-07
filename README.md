@@ -2,7 +2,7 @@
 
 A modern, responsive website for TheiaXR - revolutionizing clinical training with XR-based OSCE simulations.
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js (v14 or higher)
@@ -33,7 +33,7 @@ http://localhost:3000
 
 The page will reload automatically when you make changes to the code.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 theia_website/
@@ -56,7 +56,7 @@ theia_website/
 └── README.md               # This file
 ```
 
-## 🎨 Website Sections
+## Website Sections
 
 The website consists of the following main sections:
 
@@ -71,14 +71,14 @@ The website consists of the following main sections:
 9. **Contact** - Contact form and information
 10. **Footer** - Additional links and information
 
-## 🛠 Available Scripts
+## Available Scripts
 
 - `npm start` - Runs the app in development mode
 - `npm run build` - Builds the app for production
 - `npm test` - Launches the test runner
 - `npm run eject` - Ejects from Create React App (one-way operation)
 
-## 🎯 Key Features
+## Key Features
 
 - **Responsive Design** - Works on desktop, tablet, and mobile devices
 - **Modern UI/UX** - Clean, professional design with smooth animations
@@ -86,21 +86,21 @@ The website consists of the following main sections:
 - **Accessible** - Built with accessibility best practices
 - **SEO Friendly** - Proper meta tags and semantic HTML
 
-## 🏗 Built With
+## Built With
 
 - **React** - Frontend framework
 - **CSS3** - Styling with modern features (Grid, Flexbox, Gradients)
 - **Create React App** - Development toolchain
 - **Modern JavaScript (ES6+)** - Latest JavaScript features
 
-## 📱 Browser Support
+## Browser Support
 
 - Chrome (recommended)
 - Firefox
 - Safari
 - Edge
 
-## 🔧 Development
+## Development
 
 ### Adding New Sections
 1. Add the JSX structure in `src/App.js`
@@ -118,7 +118,7 @@ The website consists of the following main sections:
 - Maintain consistent spacing using rem units
 - Add hover effects for interactive elements
 
-## 🚀 Deployment
+## Deployment
 
 To create a production build:
 
@@ -128,7 +128,7 @@ npm run build
 
 This creates a `build` folder with optimized files ready for deployment.
 
-## 📞 Contact
+## Contact
 
 For questions about this project, please contact the TheiaXR team.
 
