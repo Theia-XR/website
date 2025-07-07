@@ -30,12 +30,7 @@ jobs:
         cache: 'npm'
         
     - name: Install dependencies
-      run: |
-        if [ -f package-lock.json ]; then
-          npm ci || npm install
-        else
-          npm install
-        fi
+      run: npm ci
       
     - name: Build React app
       run: npm run build
@@ -61,4 +56,4 @@ jobs:
     steps:
     - name: Deploy to GitHub Pages
       id: deployment
-      uses: actions/deploy-pages@v4 
+      uses: actions/deploy-pages@v4
