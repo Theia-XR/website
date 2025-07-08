@@ -16,9 +16,9 @@ function App() {
             <ul className="nav-links">
               <li><a href="#home" className="active">Home</a></li>
               <li><a href="#features">Features</a></li>
-              <li><a href="#about">About Us</a></li>
-              <li><a href="#education">For Education</a></li>
-              <li><a href="/demo.html" target="_blank">Demo</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#how-it-works">How It Works</a></li>
+              <li><a href="#team">Team</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
           </nav>
@@ -31,13 +31,15 @@ function App() {
           <div className="hero-content">
             <div className="hero-text">
               <h1>
-                Revolutionize <span className="highlight">Clinical Training</span> with XR-Based OSCE Simulations
+                Redefining <span className="highlight">Clinical Assessment</span> with Immersive Simulation
               </h1>
               <p>
-                No more actors. Just hyper-realistic, AI-driven patient encounters. 
-                Anytime, Anywhere. Transform medical education with immersive technology.
+                Train smarter. Assess better. TheiaXR brings the OSCE into the future with virtual patients.
               </p>
-              <a href="#demo" className="cta-button">Request a Demo</a>
+              <div className="hero-buttons">
+                <a href="#contact" className="cta-button">Book a Demo</a>
+                <a href="#contact" className="cta-button" style={{marginLeft: '1rem', background: 'transparent', color: '#3A8EF6', border: '2px solid #3A8EF6'}}>Contact Us</a>
+              </div>
             </div>
             <div className="hero-image">
               <img src="/assets/illustrations/medical-consultation.svg" alt="XR Medical Training Simulation" />
@@ -46,210 +48,263 @@ function App() {
         </div>
       </section>
 
-      {/* How It Works Section */}
-      <section className="section">
+      {/* About TheiaXR Section */}
+      <section id="about" className="section">
         <div className="container">
           <div className="section-header">
-            <h2>How It Works</h2>
-            <p>Three simple steps to transform medical education</p>
+            <h2>About TheiaXR</h2>
+            <p>TheiaXR is a hybrid OSCE simulation platform offering both onscreen learning for students and virtual reality based training and assessments for institutions. Designed for real-time feedback and efficient summative assessment, TheiaXR adapts to the needs of modern medical education.</p>
           </div>
         </div>
       </section>
 
-      {/* Features Section */}
+      {/* How It Works Section */}
+      <section id="how-it-works" className="section">
+        <div className="container">
+          <div className="section-header">
+            <h2>How It Works</h2>
+            <p>Four simple steps to transform medical education</p>
+          </div>
+          <div className="highlights-grid">
+            <div className="highlight-item">
+              <h3>1. Select Your Mode</h3>
+              <p>Students choose the onscreen module or faculty assign VR sessions.</p>
+            </div>
+            <div className="highlight-item">
+              <h3>2. Engage with Simulation</h3>
+              <p>Interact with virtual patients through browser or enter VR for immersive experience.</p>
+            </div>
+            <div className="highlight-item">
+              <h3>3. Receive Feedback</h3>
+              <p>Onscreen modules give instant feedback; VR sessions provide structured faculty reports.</p>
+            </div>
+            <div className="highlight-item">
+              <h3>4. Monitor & Improve</h3>
+              <p>Faculty dashboards provide cohort-level insights and assessment support.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Key Features Section */}
       <section id="features" className="section">
         <div className="container">
+          <div className="section-header">
+            <h2>Key Features</h2>
+            <p>Comprehensive solutions for students and institutions</p>
+          </div>
+          
           <div className="features-grid">
             <div className="feature-card">
               <div className="feature-icon" style={{background: 'rgba(133, 95, 206, 0.1)'}}>
-                <img src="/assets/icons/017-heart.svg" alt="AI-Powered" style={{width: '32px', height: '32px'}} />
+                <img src="/assets/icons/017-heart.svg" alt="Student Practice" style={{width: '32px', height: '32px'}} />
               </div>
-              <h3>AI-Powered</h3>
-              <p>Replace actors with responsive digital characters powered by AI and expressive animation that adapt to student interactions.</p>
-              <a href="#demo" className="cta-button">Request a Demo</a>
+              <h3>For Students: Onscreen Practice</h3>
+              <p>Access OSCE scenarios from any device. Practice clinical reasoning, communication, and empathy with immediate AI-powered feedback to build confidence.</p>
             </div>
             
             <div className="feature-card">
               <div className="feature-icon" style={{background: 'rgba(39, 174, 96, 0.1)'}}>
-                <img src="/assets/icons/005-syringe.svg" alt="Simulate Symptoms" style={{width: '32px', height: '32px'}} />
+                <img src="/assets/icons/005-syringe.svg" alt="VR Simulation" style={{width: '32px', height: '32px'}} />
               </div>
-              <h3>Simulate Symptoms</h3>
-              <p>Experience realistic patient symptoms and conditions with advanced simulation technology that mirrors real-world scenarios.</p>
-              <a href="#demo" className="cta-button">Request a Demo</a>
+              <h3>For Institutions: VR Simulation</h3>
+              <p>Deliver immersive OSCE stations using standalone VR headsets. Customize scenarios, monitor performance, and reduce reliance on standardized patients.</p>
             </div>
             
             <div className="feature-card">
               <div className="feature-icon" style={{background: 'rgba(47, 128, 237, 0.1)'}}>
-                <img src="/assets/icons/024-clinic.svg" alt="Advanced Analytics" style={{width: '32px', height: '32px'}} />
+                <img src="/assets/icons/024-clinic.svg" alt="Analytics" style={{width: '32px', height: '32px'}} />
               </div>
               <h3>Advanced Analytics</h3>
-              <p>Comprehensive performance tracking and detailed assessment reports to help students improve their clinical skills.</p>
-              <a href="#demo" className="cta-button">Request a Demo</a>
+              <p>Track student progress and engagement. Generate data-driven reports for academic evaluation and integrate with existing learning platforms.</p>
+            </div>
+            
+            <div className="feature-card">
+              <div className="feature-icon" style={{background: 'rgba(241, 196, 15, 0.1)'}}>
+                <img src="/assets/icons/012-medicine.svg" alt="Global Access" style={{width: '32px', height: '32px'}} />
+              </div>
+              <h3>Global Access</h3>
+              <p>Accessible worldwide with affordable VR hardware like Meta Quest. Ideal for remote campuses and designed to scale across countries.</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* About Us Section */}
-      <section id="about" className="section">
-        <div className="container">
-          <div className="section-header">
-            <h2>Meet Our Team</h2>
-            <p>The passionate experts behind TheiaXR's revolutionary medical training platform</p>
-          </div>
-          <div className="team-grid">
-            <div className="team-card">
-              <div className="team-photo">
-                <img src="/assets/images/2f50ea00e366d4d2d5432df9eaaa5caa57be9963.jpg" alt="Dr. Sarah Chen" />
-              </div>
-              <div className="team-info">
-                <h3>Dr. Sarah Chen</h3>
-                <p className="team-role">Chief Executive Officer</p>
-                <p className="team-bio">
-                  With over 15 years in medical education and XR technology, Dr. Chen leads our mission to 
-                  transform clinical training through innovative AI-powered simulations.
-                </p>
-              </div>
-            </div>
-            
-            <div className="team-card">
-              <div className="team-photo">
-                <img src="/assets/images/ed287a2c2cbd7a80619b91e2122fcdd4927c58a2.jpg" alt="Michael Rodriguez" />
-              </div>
-              <div className="team-info">
-                <h3>Michael Rodriguez</h3>
-                <p className="team-role">Chief Technology Officer</p>
-                <p className="team-bio">
-                  A pioneer in AI and virtual reality, Michael brings cutting-edge technology expertise 
-                  to create the most realistic medical training experiences possible.
-                </p>
-              </div>
-            </div>
-            
-            <div className="team-card">
-              <div className="team-photo">
-                <img src="/assets/images/ce69ac80acff80896a9665e4ce23d8c4b93dd8ec.jpg" alt="Dr. Emily Johnson" />
-              </div>
-              <div className="team-info">
-                <h3>Dr. Emily Johnson</h3>
-                <p className="team-role">Head of Medical Affairs</p>
-                <p className="team-bio">
-                  A practicing physician and medical educator, Dr. Johnson ensures our simulations 
-                  meet the highest standards of clinical accuracy and educational effectiveness.
-                </p>
-              </div>
-            </div>
-            
-            <div className="team-card">
-              <div className="team-photo">
-                <img src="/assets/images/e6d158f245af2ce8e415aea07dc7acdccfb49814.jpg" alt="David Kim" />
-              </div>
-              <div className="team-info">
-                <h3>David Kim</h3>
-                <p className="team-role">Lead UX Designer</p>
-                <p className="team-bio">
-                  David crafts intuitive and engaging user experiences that make complex medical 
-                  training accessible and enjoyable for students and educators alike.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Product Highlights Section */}
+      {/* Use Cases Section */}
       <section className="section highlights">
         <div className="container">
           <div className="section-header">
-            <h2>Product Highlights</h2>
-            <p>Advanced features for comprehensive medical training</p>
+            <h2>Use Cases</h2>
+            <p>Flexible solutions for different educational needs</p>
           </div>
           <div className="highlights-grid">
             <div className="highlight-item">
-              <h3>Responsive Avatars</h3>
-              <p>Intelligent virtual patients that respond naturally to student interactions</p>
+              <h3>Student Practice</h3>
+              <p>Self-paced learning and repeatable scenario runs before exams</p>
             </div>
             <div className="highlight-item">
-              <h3>Realistic Conversations</h3>
-              <p>Natural language processing for authentic clinical dialogue</p>
+              <h3>Institutional Assessment</h3>
+              <p>Immersive, standardized assessments without actors or large setups</p>
             </div>
             <div className="highlight-item">
-              <h3>Analytics Dashboard</h3>
-              <p>Comprehensive performance tracking and detailed assessment reports</p>
+              <h3>Medical Schools</h3>
+              <p>Comprehensive OSCE preparation and evaluation platform</p>
             </div>
             <div className="highlight-item">
-              <h3>No Actors Needed</h3>
-              <p>Eliminate scheduling conflicts and reduce training costs significantly</p>
+              <h3>Global Training</h3>
+              <p>Accessible simulation for remote and low-resource settings</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Realistic Conversations Section */}
-      <section className="section conversation">
-        <div className="container">
-          <div className="conversation-content">
-            <div className="conversation-image">
-              <img src="/assets/illustrations/medical-consultation.svg" alt="Realistic Conversations Demo" />
-            </div>
-            <div className="conversation-text">
-              <h2>Realistic Conversations</h2>
-              <p>
-                Replace actors with responsive digital characters powered by AI and expressive animation. 
-                Our advanced system creates natural, flowing conversations that feel authentic and engaging.
-              </p>
-              <a href="#demo" className="cta-button">See It in Action</a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Partners Section */}
-      <section className="partners">
-        <div className="container">
-          <h2>Partners & Friends</h2>
-          <div className="partners-grid">
-            <div className="partner-logo">Medical University</div>
-            <div className="partner-logo">Healthcare Institute</div>
-            <div className="partner-logo">Training Center</div>
-            <div className="partner-logo">Research Foundation</div>
-            <div className="partner-logo">Medical Academy</div>
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonials Section */}
-      <section className="section">
+      {/* Team Section */}
+      <section id="team" className="section">
         <div className="container">
           <div className="section-header">
-            <h2>What Our Users Say</h2>
-            <p>Real feedback from medical professionals and students</p>
+            <h2>Meet Our Team</h2>
+            <p>Multidisciplinary experts reimagining the future of clinical education</p>
           </div>
-          <div className="testimonials-grid">
-            <div className="testimonial-card">
-              <div className="testimonial-text">
-                "TheiaXR has completely transformed how we approach clinical training. The AI-powered simulations are incredibly realistic and provide consistent, high-quality learning experiences for all our students."
+          
+          <div className="team-grid">
+                        <div className="team-card">
+              <div className="team-photo">
+                <img src="/assets/images/shreenik.jpeg" alt="Shreenik Kundu" />
               </div>
-              <div className="testimonial-author">
-                <div className="author-avatar">DR</div>
-                <div className="author-info">
-                  <h4>Dr. Sarah Rodriguez</h4>
-                  <p>Medical Education Director</p>
-                </div>
+              <div className="team-info">
+                <h3>Shreenik Kundu, MD, PhD (c)</h3>
+                <p className="team-role">Founder & CEO</p>
+                <p className="team-bio">
+                  PhD candidate at McGill University and former Harvard Medical School's Paul Farmer Global Surgery Fellow. Leads TheiaXR with a vision to democratize simulation-based education.
+                </p>
               </div>
             </div>
             
-            <div className="testimonial-card">
-              <div className="testimonial-text">
-                "As a medical student, I love that I can practice patient interactions anytime without coordinating with actors. The feedback system helps me identify areas for improvement quickly."
+            <div className="team-card">
+              <div className="team-photo">
+                <img src="/assets/images/mohsen.jpeg" alt="Mohsen Amoei" />
               </div>
-              <div className="testimonial-author">
-                <div className="author-avatar">MJ</div>
-                <div className="author-info">
-                  <h4>Michael Johnson</h4>
-                  <p>4th Year Medical Student</p>
+              <div className="team-info">
+                <h3>Mohsen Amoei, MSc, PhD (c)</h3>
+                <p className="team-role">Founder & CTO</p>
+                <p className="team-bio">
+                  Technical leader driving the development of TheiaXR's innovative simulation platform with expertise in advanced technology systems.
+                </p>
+              </div>
+            </div>
+            
+            <div className="team-card">
+              <div className="team-photo">
+                <img src="/assets/images/ce69ac80acff80896a9665e4ce23d8c4b93dd8ec.jpg" alt="Oliver Cafferty" />
+              </div>
+              <div className="team-info">
+                <h3>Oliver Cafferty</h3>
+                <p className="team-role">LLM Expert & Lead</p>
+                <p className="team-bio">
+                  Spearheads integration of large language models into TheiaXR's conversational systems, ensuring real-time, clinically accurate AI-driven feedback.
+                </p>
+              </div>
+            </div>
+            
+            <div className="team-card">
+              <div className="team-photo">
+                <img src="/assets/images/dan.jpeg" alt="Dan Poenaru" />
+              </div>
+              <div className="team-info">
+                <h3>Dan Poenaru, MD, PhD</h3>
+                <p className="team-role">Clinical & Global Health Advisor</p>
+                <p className="team-bio">
+                  Internationally recognized pediatric surgeon and medical education expert. Advises on clinical fidelity and scalability in diverse settings.
+                </p>
+              </div>
+            </div>
+            
+            <div className="team-card">
+              <div className="team-photo">
+                <img src="/assets/images/elena.jpeg" alt="Elena Guadagno" />
+              </div>
+              <div className="team-info">
+                <h3>Elena Guadagno, PhD</h3>
+                <p className="team-role">Learning Science Advisor</p>
+                <p className="team-bio">
+                  Research director at Montreal Children's Hospital. Ensures TheiaXR's user experience is evidence-based, engaging, and pedagogically sound.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          {/* Student Collaborators */}
+          <div style={{marginTop: '4rem'}}>
+            <div className="section-header">
+              <h3 style={{fontSize: '1.8rem', marginBottom: '2rem'}}>Student Collaborators</h3>
+              <p>Exceptional students contributing to design, testing, and implementation</p>
+            </div>
+            <div className="team-grid" style={{gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))'}}>
+              <div className="team-card">
+                <div className="team-photo">
+                  <img src="/assets/images/Jessica_Xu.jpg" alt="Jessica Xu" />
+                </div>
+                <div className="team-info">
+                  <h4>🎓 Jessica Xu</h4>
                 </div>
               </div>
+              
+              <div className="team-card">
+                <div className="team-photo">
+                  <img src="/assets/images/Gabby_Wang.jpg" alt="Gabby Wang" />
+                </div>
+                <div className="team-info">
+                  <h4>🎓 Gabby Wang</h4>
+                </div>
+              </div>
+              
+                             <div className="team-card">
+                 <div className="team-photo">
+                   <img src="/assets/images/Doris_Wu.jpg" alt="Doris Wu" />
+                 </div>
+                 <div className="team-info">
+                   <h4>🎓 Doris Wu</h4>
+                 </div>
+               </div>
+              
+              <div className="team-card">
+                <div className="team-photo">
+                  <img src="/assets/images/Jocelyn_Dong.jpg" alt="Jocelyn Dong" />
+                </div>
+                <div className="team-info">
+                  <h4>🎓 Jocelyn Dong</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="section">
+        <div className="container">
+          <div className="section-header">
+            <h2>Frequently Asked Questions</h2>
+          </div>
+          <div className="features-grid">
+            <div className="feature-card">
+              <h3>Can students use TheiaXR without VR equipment?</h3>
+              <p>Yes. Students can access onscreen modules from any device for formative practice.</p>
+            </div>
+            
+            <div className="feature-card">
+              <h3>Can institutions conduct summative assessments?</h3>
+              <p>Absolutely. Our platform supports summative testing through immersive, trackable simulations.</p>
+            </div>
+            
+            <div className="feature-card">
+              <h3>Is TheiaXR customizable?</h3>
+              <p>Yes. We offer customizable scenarios, language options, and institutional branding.</p>
+            </div>
+            
+            <div className="feature-card">
+              <h3>What hardware is required for VR?</h3>
+              <p>Any standalone VR headset like Meta Quest 2 or 3.</p>
             </div>
           </div>
         </div>
@@ -259,9 +314,10 @@ function App() {
       <section id="contact" className="section contact">
         <div className="container">
           <div className="section-header">
-            <h2>Get in Touch</h2>
+            <h2>Contact Us</h2>
             <p>Ready to revolutionize your medical training? Let's talk!</p>
           </div>
+          
           <div className="contact-content">
             <div className="contact-form">
               <form>
@@ -300,14 +356,13 @@ function App() {
           <div className="footer-content">
             <div className="footer-section">
               <h3>TheiaXR</h3>
-              <p>Revolutionizing medical training through immersive XR technology and AI-powered simulations.</p>
+              <p>Redefining Clinical Assessment with Immersive Simulation. Train smarter. Assess better.</p>
             </div>
             
             <div className="footer-section">
               <h3>Contact</h3>
               <a href="mailto:hello@theiaxr.com">hello@theiaxr.com</a>
-              <a href="tel:+15551234567">+1 (555) 123-4567</a>
-              <p>San Francisco, CA</p>
+              <a href="tel:+1XXXXXXXXX">+1 (XXX) XXX-XXXX</a>
             </div>
             
             <div className="footer-section">
