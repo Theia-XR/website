@@ -237,7 +237,7 @@ function App() {
                 <img src="/assets/images/Mehrnaz Amouei-4.jpg" alt="Mehrnaz Amouei" />
               </div>
               <div className="team-info">
-                <h3>Mehrnaz Amouei</h3>
+                <h3>Mehrnaz Amouei, MSc</h3>
                 <p className="team-role">Head of Design & Lead UX</p>
                 <p className="team-bio">
                   Product Designer and Lead UX at TheiaXR. With a background in industrial design and human-AI interaction, she creates intuitive, emotionally driven experiences that enhance clinical training in XR environments.
