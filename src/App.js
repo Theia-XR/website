@@ -195,7 +195,7 @@ function App() {
             
             <div className="team-card">
               <div className="team-photo">
-                <img src="/assets/images/ce69ac80acff80896a9665e4ce23d8c4b93dd8ec.jpg" alt="Oliver Cafferty" />
+                <img src="/assets/images/oliver.jpeg" alt="Oliver Cafferty" />
               </div>
               <div className="team-info">
                 <h3>Oliver Cafferty</h3>
