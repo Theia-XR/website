@@ -198,7 +198,7 @@ function App() {
                 <img src="/assets/images/oliver.jpeg" alt="Oliver Cafferty" />
               </div>
               <div className="team-info">
-                <h3>Oliver Cafferty</h3>
+                <h3>Oliver Cafferty, PhD (c)</h3>
                 <p className="team-role">LLM Expert & Lead</p>
                 <p className="team-bio">
                   Spearheads integration of large language models into TheiaXR's conversational systems, ensuring real-time, clinically accurate AI-driven feedback.
