@@ -208,6 +208,19 @@ function App() {
             
             <div className="team-card">
               <div className="team-photo">
+                <img src="/assets/images/Mehrnaz Amouei-4.jpg" alt="Mehrnaz Amouei" />
+              </div>
+              <div className="team-info">
+                <h3>Mehrnaz Amouei, MDes</h3>
+                <p className="team-role">Head of Design & Lead UX</p>
+                <p className="team-bio">
+                  Product Designer and Lead UX at TheiaXR. With a background in industrial design and human-AI interaction, she creates intuitive, emotionally driven experiences that enhance clinical training in XR environments.
+                </p>
+              </div>
+            </div>
+            
+            <div className="team-card">
+              <div className="team-photo">
                 <img src="/assets/images/dan.jpeg" alt="Dan Poenaru" />
               </div>
               <div className="team-info">
@@ -228,19 +241,6 @@ function App() {
                 <p className="team-role">Learning Science Advisor</p>
                 <p className="team-bio">
                   Research director at Montreal Children's Hospital. Ensures TheiaXR's user experience is evidence-based, engaging, and pedagogically sound.
-                </p>
-              </div>
-            </div>
-            
-            <div className="team-card">
-              <div className="team-photo">
-                <img src="/assets/images/Mehrnaz Amouei-4.jpg" alt="Mehrnaz Amouei" />
-              </div>
-              <div className="team-info">
-                <h3>Mehrnaz Amouei, MDes</h3>
-                <p className="team-role">Head of Design & Lead UX</p>
-                <p className="team-bio">
-                  Product Designer and Lead UX at TheiaXR. With a background in industrial design and human-AI interaction, she creates intuitive, emotionally driven experiences that enhance clinical training in XR environments.
                 </p>
               </div>
             </div>
