@@ -20,6 +20,7 @@ function App() {
               <li><a href="#how-it-works">How It Works</a></li>
               <li><a href="#team">Team</a></li>
               <li><a href="#contact">Contact</a></li>
+              <li><a href="https://platform.theiaxr.com" target="_blank" rel="noopener noreferrer" className="platform-button">Platform</a></li>
             </ul>
           </nav>
         </div>

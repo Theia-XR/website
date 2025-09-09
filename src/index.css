@@ -83,6 +83,23 @@ code {
   color: #3A8EF6;
 }
 
+/* Platform Button */
+.platform-button {
+  background: linear-gradient(141deg, #3A8EF6 0%, #6F3AFA 100%) !important;
+  color: white !important;
+  padding: 0.75rem 1.5rem !important;
+  border-radius: 25px !important;
+  font-weight: 600 !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 4px 12px rgba(65, 132, 247, 0.3) !important;
+}
+
+.platform-button:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 20px rgba(65, 132, 247, 0.4) !important;
+  color: white !important;
+}
+
 /* Hero Section */
 .hero {
   background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
